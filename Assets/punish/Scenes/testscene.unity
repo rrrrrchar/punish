@@ -430,70 +430,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!1 &973857856 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5590092183463900700, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
-  m_PrefabInstance: {fileID: 179649906343565663}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &973857859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973857856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e42eebd35e449a4ebe4ad5a70288001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myTransform: {fileID: 0}
-  animatorHandler: {fileID: 0}
-  rigidbody: {fileID: 0}
-  normalCamera: {fileID: 0}
-  movementSpeed: 5
-  rotationSpeed: 10
---- !u!114 &973857860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973857856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9e9d41a79321d48b835b483730a8fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontal: 0
-  vertical: 0
-  moveAmount: 0
-  mouseX: 0
-  mouseY: 0
---- !u!1 &1572580963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2167699016228811726, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
-  m_PrefabInstance: {fileID: 179649906343565663}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1572580965 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5099320372181494951, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
-  m_PrefabInstance: {fileID: 179649906343565663}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1572580966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572580963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2423933ce650e429b4b4c5bb860e62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 1572580965}
-  canRotate: 1
 --- !u!1 &1676287791
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,17 +698,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3993329163738671461, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
-      propertyPath: m_Radius
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 5590092183463900700, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
       propertyPath: m_Name
       value: Player_Wrap
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134892144417131609, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e6a6dd7c249d4846aeb344d42c49478, type: 3}
